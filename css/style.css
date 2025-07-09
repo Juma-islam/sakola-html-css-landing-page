@@ -119,3 +119,25 @@ header .container{
 .ninety-nine{
     margin: 15px 5px;
 }
+.banner .banner-content>*{
+    margin-top: 30px;
+}
+.banner .container .banner-content{
+    width: 70%;
+}
+.banner .container .banner-img{
+    width: 40%;
+}
+
+.banner .container .banner-img{
+    width: 100%;
+}
+.banner .container .banner-content h1, p{
+    width: 140%;
+    line-height: 1.8;
+}
+.banner .container{
+    display: flex;
+    gap: 198px;
+
+}
