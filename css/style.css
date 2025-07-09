@@ -7,12 +7,13 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+   
 }
 
 body {
     font-family: "Open Sans", sans-serif;
     width: 100%;
-    
+     overflow-x: hidden;
 }
 
 .container {
@@ -123,21 +124,55 @@ header .container{
     margin-top: 30px;
 }
 .banner .container .banner-content{
-    width: 70%;
+    width: 60%;
 }
 .banner .container .banner-img{
     width: 40%;
 }
 
-.banner .container .banner-img{
+.banner .container .banner-img img{
     width: 100%;
 }
 .banner .container .banner-content h1, p{
-    width: 140%;
+    width: 100%;
     line-height: 1.8;
 }
 .banner .container{
     display: flex;
-    gap: 198px;
+    gap: 190px;
 
+}
+.ninety-nine{
+    color: white;
+}
+.twelve{
+    margin-left: 20px;
+}
+.box{
+    display: flex;
+   width: 70%;
+   /* justify-content: space-around; */
+   padding: 10px 20px;
+   border: 1px solid white;
+   background-color:aliceblue;
+   align-items: center;
+   gap: 15px;
+   margin-top: 20px;
+}
+.information{
+    display: flex;
+    gap: 180px;
+}
+.create-img{
+    width: 40%;
+}
+.create-content{
+    width: 60%;
+}
+.create-img img{
+    width: 100%;
+}
+.create-content p, h1 .box-img .arrow-img{
+    width: 100%;
+    line-height: 2;
 }
