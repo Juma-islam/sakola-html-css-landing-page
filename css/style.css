@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+:root{
+    --primary-color:#000D83;
+    --secondary-color:#4AC7FF;
+    --para-color:#040931B5;
+    --title-color:#040931;
+    --bg-color:#E7EFFF;
+    --heading:2.5rem;
+    --sub-heading:1.125rem
+}
+.sub-heading{
+    font-size: var(--sub-heading);
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.btn{
+    padding: 5px 20px;
+    border-radius: 10px ;
+}
+.outline-btn{
+    border: 1px solid var(--primary-color);
+    color: var(--para-color);
+}
+.normal-btn{
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+}
+h1, h2{
+    color: var(--primary-color);
+    font-size: var(--heading);
+}
+.title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--title-color);
+}
+.round{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid white;
+  background-color: #C4C4C4;
+}
+
+
+
+
+
+header{
+    background-color: var(--bg-color);
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+}
+header .container{
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul li{
+    padding: 20px;
+}
+.menu ul li a:hover{
+    color: var(--secondary-color);
+}
+.no-outline{
+    border: none;
+    background: transparent;
+}
+.no-outline:hover{
+    color: var(--secondary-color);
+}
+.outline-btn:hover{
+    color:white;
+    background-color: var(--primary-color);
+}
+.btn-group .btn{
+    padding: 10px 20px;
+}
+.avater{
+    display: flex;
+    align-items: center;
+}
+.avater .round{
+    margin-left: -15px;
+}
+.ninety-nine{
+    margin: 15px 5px;
+}
