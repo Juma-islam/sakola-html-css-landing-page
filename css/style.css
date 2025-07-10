@@ -103,6 +103,12 @@ header .container {
     justify-content: space-between;
     align-items: center;
 }
+.container p, h1, img{
+      text-align: left;
+    margin-left: 0px;
+    align-items: start;
+        line-height: 2;
+}
 
 .menu ul li {
     padding: 20px;
@@ -347,4 +353,10 @@ p {
 }
 .account p{
     color: #040931B5;
+}
+h1{
+   text-align: left;
+    margin-left: 0px;
+    align-items: start;
+        line-height: 2;   
 }
