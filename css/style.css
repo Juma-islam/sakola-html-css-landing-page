@@ -259,10 +259,11 @@ h1 {
     color: #040931B5;
 }
 
-.newsletter .container h1,p {
+.newsletter .container h1,
+p {
     /* color: #FFFFFF; */
     line-height: 2;
-   
+
 }
 
 .newsletter .btn {
@@ -278,7 +279,7 @@ h1 {
     align-items: center;
     width: 90%;
     justify-content: center;
-     max-width: 1140px;
+    max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 100px 20px;
@@ -289,15 +290,61 @@ h1 {
     opacity: 0.7;
     width: 1200px;
     height: 450px;
-    border-radius: 20px; 
+    border-radius: 20px;
     margin-top: -100px;
     margin-left: -20px;
-     padding: 121px 191px 115px 216px;
+    padding: 121px 191px 115px 216px;
 }
-.distrube{
-     font-size: var(--heading);
-     color: #FFFFFF;
-}
-.distrube2{
+
+.distrube {
+    font-size: var(--heading);
     color: #FFFFFF;
+}
+
+.distrube2 {
+    color: #FFFFFF;
+}
+
+.discovery .container {
+    background-color: #F1F6FF;
+}
+
+.icon .round {
+    background-color: #D3D4D6;
+    font-size: small;
+
+}
+.icon img{
+    font-size: small;
+}
+
+.last-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: centter;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.account .first {
+    width: 20%;
+
+}
+
+.account .secend {
+    width: 80%;
+}
+
+.account .first p img {
+    width: 100%;
+}
+.account p, h4, img{
+    text-align: left;
+    margin-left: 0px;
+    align-items: start;
+        line-height: 2;
+}
+.account p{
+    color: #040931B5;
 }
