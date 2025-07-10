@@ -9,7 +9,6 @@
     text-decoration: none;
    
 }
-
 body {
     font-family: "Open Sans", sans-serif;
     width: 100%;
@@ -195,3 +194,19 @@ header .container{
     padding: 10px 20px;
     margin-top: 10px;
 }
+.card-box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+.font-icon{
+color: #FDC350;
+}
+ .studing .container, p, h1{
+    text-align: center;
+    line-height: 1.9;
+ }
+ .seventy-four{
+    color: #040931B5;
+ }
